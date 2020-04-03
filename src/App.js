@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import Fourohfour from './pages/Fourohfour';
 import Home from './pages/Home';
+import About from './pages/About';
+import Challenges from './pages/Challenges';
+import Leaderboard from './pages/Leaderboard';
 
 export default function App() {
   return (
@@ -25,6 +28,15 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/challenges">
+            <Challenges />
+          </Route>
+          <Route exact path="/leaderboard">
+            <Leaderboard />
           </Route>
           <Route>
             <Fourohfour />
