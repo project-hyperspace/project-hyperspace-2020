@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "npm package",
+  "main": "sass/myStyles.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwjamesking/projecthyperspace.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwjamesking/projecthyperspace/issues"
+  },
+  "homepage": "https://github.com/jwjamesking/projecthyperspace#readme",
+  "devDependencies": {
+    "bulma": "^0.8.1",
+    "node-sass": "^4.13.1"
+  }
+}
